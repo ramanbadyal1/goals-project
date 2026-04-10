@@ -14,7 +14,7 @@ function App() {
       setIsLoading(true);
 
       try {
-        const response = await fetch('/api/goals/');
+        const response = await fetch('http://localhost:5001/goals'); // subjected to change
 
         const resData = await response.json();
 
@@ -39,7 +39,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('/api/goals/', {
+      const response = await fetch('http://localhost:5001/goals', { // subjected to change
         method: 'POST',
         body: JSON.stringify({
           text: goalText,
@@ -78,7 +78,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('/api/goals/' + goalId, {
+      const response = await fetch('http://localhost:5001/goals' + goalId, { // subjected to change
         method: 'DELETE',
       });
 
