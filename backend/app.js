@@ -84,18 +84,18 @@ app.delete('/goals/:id', async (req, res) => {
 });
 
 mongoose.connect(
-  `mongodb+srv://akif:akif@cluster0.e5jbjbz.mongodb.net/?retryWrites=true&w=majority`,
+  `mongodb+srv://test:test@test.aye7crq.mongodb.net/?appName=test`, // subjected to change
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   },
   (err) => {
     if (err) {
-      console.error('FAILED TO CONNECT TO MONGODB,did you added the mongodb url?');
+      console.error('FAILED TO CONNECT TO MONGODB,did you added the mongodb url?'); // subjected to change
       console.error(err);
     } else {
       console.log('CONNECTED TO MONGODB!!');
-      app.listen(5000);
+      app.listen(5001); // subjected to change
     }
   }
 );
