@@ -14,7 +14,7 @@ function App() {
       setIsLoading(true);
 
       try {
-        const response = await fetch('http://localhost:5001/goals'); // subjected to change
+        const response = await fetch('http://localhost:5001/goals'); // change to frontend container ip.
 
         const resData = await response.json();
 
@@ -39,7 +39,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:5001/goals', { // subjected to change
+      const response = await fetch('http://localhost:5001/goals', { // change it to the ip of running frontend container if you would like to skip publishing ports.
         method: 'POST',
         body: JSON.stringify({
           text: goalText,
