@@ -5,6 +5,8 @@ services:
     volumes: 
       - logs:/app/logs
       - /app/node_modules
+    ports:
+      - 5001:5001
 
   client:
     build: ./frontend
