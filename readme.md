@@ -1,6 +1,6 @@
-**THIS PROJECT IS DONE NON GITOPS WAY, SINGLE REPOSITORY 2 BRANCH(DEV,MASTER),FOR PERSONAL TESTING PURPOSES,ONLY CI PART**
+**THIS PROJECT IS DONE NON GITOPS WAY, SINGLE REPOSITORY 1 BRANCH(main),FOR PERSONAL TESTING PURPOSES,ONLY CI PART**
 
-# 1 Repo 2 branch jenkins CI - :
+# 1 Repo 1 branch jenkins CI - :
 
   ![Diagram](https://github.com/aakkiiff/Goals-project/blob/dev/diagram.jpg)
   
