@@ -26,4 +26,12 @@
 4. add dockerhub and github creds to jenkins and have ur own env vars.
 5. push tthe code to dev branch,make pr,jenkin will trigger and send the tag to master branch.then review the PR and code will be merged
 	 
+**Architecture**
+A 3-tier architecture consists of:
+1. Frontend (Presentation Layer)
+2. Backend (Application Layer)
+3. Database (Data Layer)
+
+Frontend and backend are managed in the same repository.
+
 
